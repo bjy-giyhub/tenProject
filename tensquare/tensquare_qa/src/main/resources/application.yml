@@ -1,0 +1,16 @@
+server:
+  port: 9003
+
+spring:
+  application:
+    name: tensquare-qa
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://192.168.56.129:3306/tensquare_qa?characterEncoding=UTF8
+  jpa:
+    show-sql: true
+    database: mysql
+    generate-ddl: true
+
